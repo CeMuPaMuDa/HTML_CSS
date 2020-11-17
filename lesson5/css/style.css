@@ -1,6 +1,14 @@
 /*----------For all pages----------*/
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: sans-serif;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
 }
 /*All <p>*/
 .paragraph {
@@ -47,4 +55,9 @@ body {
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
+}
+/*Navigation*/
+.top_menu {
+  display: flex;
+  justify-content: space-between;
 }
