@@ -61,3 +61,29 @@ body {
   display: flex;
   justify-content: space-between;
 }
+/*Footer*/
+.footer_top {
+  width: 495px;
+}
+.footer_heading {
+  text-align: left;
+}
+.footer_text {
+  text-align: left;
+  width: 340px;
+}
+.footer_menu {
+  display: flex;
+  justify-content: space-between;
+}
+/*----------For home pages----------*/
+.heading_width {
+  width: 510px;
+}
+.text_width {
+  width: 425px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
