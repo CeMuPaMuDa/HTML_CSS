@@ -316,6 +316,7 @@ hr {
 .info_heading {
   letter-spacing: 0.04em;
   padding-bottom: 24px;
+  text-transform: uppercase;
 }
 .info_text {
   padding-bottom: 40px;
