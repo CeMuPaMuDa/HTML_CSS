@@ -62,8 +62,9 @@ body {
   justify-content: space-between;
 }
 /*Footer*/
-.footer_top {
+.footer_top_text_block {
   width: 495px;
+
 }
 .footer_heading {
   text-align: left;
