@@ -1,13 +1,10 @@
 /*----------For all pages----------*/
-
 * {
   margin: 0;
   padding: 0;
 }
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: normal;
 }
 .container {
   width: 1366px;
@@ -66,19 +63,83 @@ body {
   justify-content: space-between;
 }
 /*Footer*/
+footer {
+  background: #316099;
+}
+.footer_top {
+  padding-top: 91px;
+  padding-bottom: 91px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .footer_top_text_block {
   width: 495px;
 }
 .footer_heading {
   text-align: left;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  padding-bottom: 32px;
+  font-weight: normal;
 }
 .footer_text {
   text-align: left;
   width: 340px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.footer_bottom {
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 .footer_menu {
   display: flex;
   justify-content: space-between;
+  letter-spacing: 0.05em;
+  padding-bottom: 64px;
+}
+.list {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  list-style-type: none;
+  flex-grow: 1;
+  flex-basis: 33.333%;
+  margin-right: 32px;
+  display: flex;
+}
+.list:first-child::before {
+  content: "A.";
+  display: block;
+  margin-right: 19px;
+}
+.list:nth-child(2)::before {
+  content: "T.";
+  display: block;
+  margin-right: 19px;
+}
+.list:last-child::before {
+  content: "E.";
+  display: block;
+  margin-right: 19px;
+}
+.footer_rights {
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.footer_top_link {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-decoration: none;
+  background: #5a98d0;
+  padding: 15px 80px;
 }
 /*----------For home pages----------*/
 .top {
@@ -193,7 +254,6 @@ body {
   margin-bottom: 64px;
   padding: 0px 308px;
 }
-
 .project_img {
   width: 100%;
 }
@@ -232,8 +292,9 @@ body {
   position: absolute;
   top: 32px;
   left: 32px;
-
+}
 /*----------For contacts pages----------*/
+
 .contact_us {
   text-align: center;
 }
