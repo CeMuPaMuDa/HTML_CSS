@@ -7,7 +7,7 @@ body {
   font-family: sans-serif;
 }
 .container {
-  width: 1140px;
+  width: 1366px;
   margin: 0 auto;
   padding: 0px 113px;
 }
@@ -65,7 +65,6 @@ body {
 /*Footer*/
 .footer_top_text_block {
   width: 495px;
-
 }
 .footer_heading {
   text-align: left;
@@ -79,21 +78,55 @@ body {
   justify-content: space-between;
 }
 /*----------For home pages----------*/
+.top {
+  background: linear-gradient(
+    0deg,
+    #ebf3fb 8.84%,
+    rgba(152, 195, 232, 0) 31.12%
+  );
+}
+.top_menu {
+  padding-top: 42px;
+  list-style: none;
+}
+.top_info {
+  padding-top: 115px;
+  padding-bottom: 190px;
+  flex-grow: 1;
+  background-image: url(../img/top_img.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.top_button {
+  background: #5a98d0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+padding: 15px 50px;
+
+}
 .heading_width {
   width: 510px;
 }
 .text_width {
   width: 425px;
+  padding-top: 32px;
+  padding-bottom: 71px;
+  
 }
 .cards {
   display: flex;
   justify-content: space-between;
 }
 /*----------For contacts pages----------*/
-.contact_us{
+.contact_us {
   text-align: center;
 }
-.content_information_block{
+.content_information_block {
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
 }
