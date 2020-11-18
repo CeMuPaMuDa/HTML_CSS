@@ -127,8 +127,11 @@ body {
   padding: 15px 50px;
   text-decoration: none;
 }
-.wwd_heading {
+.what_we_do {
   margin-top: 64px;
+}
+
+.wwd_heading {
   font-weight: 300;
   line-height: 46px;
   letter-spacing: 0.05em;
@@ -179,6 +182,56 @@ body {
   text-decoration: none;
   color: #5a98d0;
 }
+.project {
+  margin-top: 64px;
+}
+.project_text {
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #222222;
+  margin-top: 32px;
+  margin-bottom: 64px;
+  padding: 0px 308px;
+}
+
+.project_img {
+  width: 100%;
+}
+.project_item {
+  position: relative;
+}
+.project_text_first {
+  font-size: 32px;
+  line-height: 46px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  position: absolute;
+  top: 64px;
+  right: 64px;
+}
+.finish_parent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 112px;
+  width: 100%;
+}
+.margin {
+  margin-right: 32px;
+}
+.finish_child {
+  position: relative;
+  flex-grow: 1;
+}
+.project_text_second {
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  position: absolute;
+  top: 32px;
+  left: 32px;
 
 /*----------For contacts pages----------*/
 .contact_us {
