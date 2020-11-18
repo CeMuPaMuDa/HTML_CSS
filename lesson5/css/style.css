@@ -88,3 +88,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+/*----------For contacts pages----------*/
+.contact_us{
+  text-align: center;
+}
+.content_information_block{
+  display: flex;
+  justify-content: space-around
+}
