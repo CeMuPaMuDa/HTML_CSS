@@ -9,6 +9,7 @@ body {
 .container {
   width: 1140px;
   margin: 0 auto;
+  padding: 0px 113px;
 }
 /*All <p>*/
 .paragraph {
