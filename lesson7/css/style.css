@@ -213,6 +213,7 @@ body {
 .contact_us_heading {
   color: #ffffff;
   letter-spacing: 0.04em;
+  padding-bottom: 16px;
 }
 .contact_us_text {
   letter-spacing: 0.04em;
@@ -235,6 +236,7 @@ body {
 .info_heading {
   letter-spacing: 0.04em;
   padding-bottom: 24px;
+  text-transform: uppercase;
 }
 .info_text {
   padding-bottom: 40px;
@@ -444,6 +446,31 @@ hr {
   .finish_parent {
     margin-bottom: 109px;
   }
+  .content_information_block {
+    flex-direction: column;
+    padding-left: 124px;
+    padding-right: 124px;
+    align-items: center;
+  }
+  .contact_us_text {
+    padding-left: 124px;
+    padding-right: 124px;
+  }
+
+  .button_form {
+    width: 100%;
+    padding: 23px 150px;
+  }
+  .info_block {
+    padding-right: 0px;
+  }
+  ..info_heading {
+    padding-bottom: 40px;
+  }
+  .map {
+    padding: 64px 0px;
+  }
+
   .footer_top {
     padding-top: 47px;
     padding-bottom: 64px;
@@ -550,6 +577,36 @@ hr {
     line-height: 19px;
     top: 16px;
     left: 16px;
+  }
+  .button_form {
+    padding: 15px 27px;
+  }
+  .contact_us {
+    padding-top: 48px;
+    padding-bottom: 61px;
+  }
+  .contact_us_heading {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 32px;
+  }
+  .contact_us_text {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  .content_information_block {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .info_block {
+    margin-left: 32px;
+  }
+  .form_block {
+    padding: 35px;
+  }
+  ::placeholder {
+    padding-left: 22px;
   }
   .footer_top {
     padding-top: 18px;
