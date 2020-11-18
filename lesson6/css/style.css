@@ -102,21 +102,25 @@ body {
   box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
   border-radius: 10px;
   font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-padding: 15px 50px;
-
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding: 15px 50px;
 }
 .heading_width {
   width: 510px;
+  font-weight: 300;
+
+  line-height: 74px;
+  letter-spacing: 0.04em;
 }
 .text_width {
   width: 425px;
   padding-top: 32px;
   padding-bottom: 71px;
-  
+  opacity: 0.6;
+  letter-spacing: 0.05em;
 }
 .cards {
   display: flex;
